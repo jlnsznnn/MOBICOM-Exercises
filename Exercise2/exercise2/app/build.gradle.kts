@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.mobdeve.s18.roman.isaacnathan.exercise2"
+    namespace = "com.mobdeve.s16.siazon.jalenegraciella.exercise2"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.mobdeve.s18.roman.isaacnathan.exercise2"
-        minSdk = 23
+        applicationId = "com.mobdeve.s16.siazon.jalenegraciella.exercise2"
+        minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -44,7 +47,5 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.recyclerview.selection)
     androidTestImplementation(libs.androidx.espresso.core)
 }
