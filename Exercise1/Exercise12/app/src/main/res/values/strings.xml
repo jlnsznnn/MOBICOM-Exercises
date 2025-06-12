@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercise 1</string>
+
+    <string name="landmarkNameTv">Manila Cathedral</string>
+    <string name="landmarkInfoTv">The Minor Basilica and Metropolitan Cathedral of the Immaculate Conception, commonly known as the Manila Cathedral, is a Roman Catholic basilica and cathedral church of the Archdiocese of Manila.</string>
+    <string name="landmarkWhereTv">Manila City</string>
+    <string name="landmarkEstablishedTv">1571</string>
+    <string name="landmarkTypeTv">Church</string>
+</resources>
